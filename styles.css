@@ -1,0 +1,15 @@
+div.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img#vscode-logo-image {
+    opacity: 0;
+    transition: opacity 230ms;
+}
+
+img#vscode-logo-image:hover {
+    opacity: 1;
+}
